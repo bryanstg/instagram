@@ -1,0 +1,69 @@
+/*Roboto font*/ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, 'Segoe UI', Arial, 'Roboto', 'Sans Serif' ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+/*----Imagen inicio----*/
+.logged__img {
+    margin: 30px 50px 20px;
+}
+.logged__img--box {
+    
+}
+.logged__img--box img {
+    width: 320px;
+}
+
+/*----Formulario box inicio---**/
+.logged__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px;
+    width: 300px;
+}
+.data__sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: solid 1px #a0a0a0ad;
+}
+.data__sign-in--logo {
+}
+.data__sign-in--logo img {
+    width: 160px;
+    margin: 12px auto;
+}
+
+
+
+
+
+.sign-in__facebook--logo img {
+    width: 13px;
+}
+
+
+.data__download--appstore > a > img {
+    width: 150px;
+}
+
+
+
+.data__download--playstore > a > img {
+    width: 140px;
+}
