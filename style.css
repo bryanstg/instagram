@@ -18,10 +18,7 @@ main {
 }
 /*----Imagen inicio----*/
 .logged__img {
-    margin: 30px 50px 20px;
-}
-.logged__img--box {
-    
+    margin: 30px 8px 20px;
 }
 .logged__img--box img {
     width: 320px;
@@ -42,6 +39,7 @@ main {
     width: 100%;
     height: auto;
     border: solid 1px #d6d4d4ce;
+    margin-bottom: 10px;
 }
 /*----SIGN IN LOGO-----*/
 
@@ -60,12 +58,10 @@ main {
 
 /*----SIGN IN BOX----*/
 .data-sign-in--box{
-    width: 70%;
+    width: 75%;
     height: auto;
 }
 /*__Formulario__*/
-.data__sign-in--form {}
-.data__sign-in--form {}
 .sign-in__form--input input {
     background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
@@ -74,35 +70,130 @@ main {
     padding: 10px 14px 10px 7px;
     margin-bottom: 5px;
     border: solid 1px #d6d4d4ad;
+    border-radius: 3px;
+    
 }
 .sign-in__form--input input::placeholder {
     color: #7a7a7ad2;
 }
 .sign-in__form--input input:focus {
-    outline: royalblue;
+    outline: 1px solid #8a8787ad;
 }
+.sign-in__form--input button {
+    background: #0095F6;
+    width: 100%;
+    font-family: Helvetica, 'Segoe UI', Arial, 'Roboto', 'Sans Serif';
+    border-radius: 3px;
+    padding: 4px 0px;
+    border: none;
+    margin: 8px 0 0 0;
+}
+.sign-in__form--input > button > a {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
 /*__Diseño divisor__*/
 .sign-in__design {
-    width: 70%;
+    width: 100%;
     height: auto;
+    margin: 15px 0;
 }
-
-
-
-
-
-
+.sign-in__design--line {
+    display: inline-block;
+    background-color: #8a878754;
+    width: 40%;
+    height: 0.5px;
+    margin: 0 0 2px 0;
+}
+.sign-in__design--circle {
+    display: inline-block;
+    font-size: 11px;
+    color: #8a8787;
+    margin: 0 10px;
+    
+}
+/*Sign in Facebook*/
+.sign-in__facebook {
+    width: 100%;
+}
+.sign-in__facebook--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    font-family: Helvetica, 'Segoe UI', Arial, 'Roboto', 'Sans Serif';
+    font-size: 12px;
+    font-weight: 600;
+    color: #385185; 
+}
 .sign-in__facebook--logo img {
     width: 13px;
+    margin-top: 3px;
+}
+.sign-in__facebook--word {
+    margin: 0 0 0 10px;
 }
 
+/*Sign in forgot*/
+.sign-in__forgot {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #00376B;
 
+    margin: 12px 0 15px 0;
+}
+
+/*--DATA SIGN UP--*/
+.data__sign-up {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    border: solid 1px #d6d4d4ce;
+    
+    
+}
+.data__sign-up--p {
+    margin: 15px;
+    color: #444444;
+}
+.data__sign-up--p a {
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 600;
+    font-family: Helvetica, 'Segoe UI', Arial, 'Roboto', 'Sans Serif';
+}
+ /*----DATA DOWNLOAD---*/
+.data__download {
+    font-size: 13px;
+    width: 100%;
+    margin: 15px 0;
+}
+.data__download p {
+    text-align: center;
+    color: #444444;
+}
+.data__download--appstore {
+    display: inline-block;
+    width: 50%;
+}
 .data__download--appstore > a > img {
-    width: 150px;
+    width: 120px;
 }
 
-
+.data__download--playstore {
+    display: inline-block;
+    width: 50%;
+}
 
 .data__download--playstore > a > img {
-    width: 140px;
+    width: 105px;
+    height: 60px;
 }
