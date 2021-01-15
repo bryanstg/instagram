@@ -19,6 +19,7 @@ main {
 /*----Imagen inicio----*/
 .logged__img {
     margin: 30px 8px 20px;
+    padding-top: 8vh;
 }
 .logged__img--box img {
     width: 320px;
@@ -30,6 +31,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 50px 20px;
+    padding-top: 8vh;
     width: 300px;
 }
 .data__sign-in {
@@ -179,21 +181,81 @@ main {
 .data__download p {
     text-align: center;
     color: #444444;
+    margin-bottom: 15px;
 }
 .data__download--appstore {
     display: inline-block;
-    width: 50%;
+    width: 49%;
 }
 .data__download--appstore > a > img {
-    width: 120px;
+    width: 75%;
+    height: 33px;
+    margin-left: 20%;
 }
 
 .data__download--playstore {
     display: inline-block;
-    width: 50%;
+    width: 49%;
 }
 
 .data__download--playstore > a > img {
-    width: 105px;
-    height: 60px;
+    width: 75%;
+    height: 115%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+
+/*------------FOOTER------------*/
+footer {
+    margin-top: 10vh;
+}
+.linkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.linkbox__lvl1, .linkbox__lvl2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 80%;
+    font-size: 11px;
+}
+.linkbox__lvl1--box, .linkbox__lvl2--box {
+    margin: 0 5px, 
+}
+.linkbox__lvl1--box > a, .linkbox__lvl2--box > a {
+    color: #8a8787;
+    text-decoration: none;
+}
+.linkbox__lvl1--box > a > div, .linkbox__lvl2--box > a > div {
+    margin: 0 8px 10px 8px;
+    text-align: justify;
+}
+.copybox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+}
+.copybox__idioma {
+    width: 10%;
+}
+.copybox__idioma--select  {
+    color: #8a8787;
+    font-size: 11px;
+    border: none;
+    width: 50%;
+    justify-self: end;
+}
+.copybox__copyr {
+    color: #8a8787;
+    font-size: 12px;
 }
